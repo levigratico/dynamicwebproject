@@ -1,0 +1,500 @@
+
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 2px solid #ccc;
+    background-color: #f1f1f1;
+	margin-left:22px;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 24px;
+    transition: 0.3s;
+    font-size: 17px;
+	
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+	
+}
+
+   /* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	
+}
+
+fieldset{
+	color: #17171a;
+	font-size: 18px;
+	width: 250px;
+	height: 350px;
+	font-family: Times New Roman;
+	border: 3px solid #ccc;
+    box-sizing: border-box;
+	border-bottom-color:#17171a;
+	border-top-color: #17171a;
+	border-left-color:#17171a;
+	border-right-color:#17171a;
+	text-align: center;
+	margin-left:20px;
+	margin-top:20px;
+	text-decoration:Impact;
+}
+
+.appe5{
+	float:left;
+}
+
+/* Button */
+ .bots{
+	  color: white;	
+	  width:120px;
+	  height:30px;
+	  font-size:17px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	  background: firebrick;
+ }
+ 
+ 
+ /* Footer */
+ 
+ .footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 1350px;
+	text-align: left;
+	font: normal 16px sans-serif;
+	padding: 45px 50px;
+	margin-top: 80px;
+	margin-left:32px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+
+
+/***********************Modal 1***********************/
+
+.modalDialog {
+	position: fixed;
+	font-family: Constantia;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 600px;
+	height:460px;
+	position: relative;
+	margin: 5.7% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: red; 
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+
+
+.close2 {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close2:hover { background: red; 
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+/***********************Modal 2***********************/
+
+.modalDialog2 {
+	position: fixed;
+	font-family: Constantia;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog2:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog2 > div {
+	width: 600px;
+	height:460px;
+	position: relative;
+	margin: 5.7% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: red; 
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+
+
+.close2 {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close2:hover { background: red; 
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+
+
+/* Polaroid Favorites */
+
+div.polaroid_1 {
+  width: 40%;
+  height:280px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, .45);
+  margin-top: 25px;
+  margin-left:50px;
+  
+}
+
+div.container {
+  padding: 10px 20px;
+  margin-left:-50;
+}
+
+.fav1{
+	height:220px;
+	width:240px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.pab1
+{
+    color: #E65100;
+    font-family: Lucida;
+    font-size: 130%;
+	margin-top:30px;
+	margin-left:-205px;
+	float:left;
+}
+
+.pab
+{
+    color: #616161;
+    font-family: Lucida;
+    font-size: 115%;
+	text-align: justify;
+	
+}
+
+
+div.polaroid_2 {
+  width: 40%;
+  height:280px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
+  margin-top: 25px;
+  margin-left:50px;
+  
+}
+
+div.container {
+  padding: 10px 20px;
+  margin-left:-50;
+}
+
+.fav2{
+	height:220px;
+	width:240px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.pab2
+{
+    color: #E65100;
+    font-family: Lucida;
+    font-size: 130%;
+	margin-top:27px;
+	margin-right:340px;
+	
+	
+}
+
+.pab
+{
+    color: #616161;
+    font-family: Lucida;
+    font-size: 115%;
+	text-align: justify;
+	
+}
+
+
+div.polaroid_3 {
+  width: 40%;
+  height:280px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
+  margin-top: 25px;
+  margin-left:50px;
+  
+}
+
+div.container {
+  padding: 10px 20px;
+  margin-left:-50;
+}
+
+.fav3{
+	height:220px;
+	width:240px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.pab3
+{
+    color: #E65100;
+    font-family: Lucida;
+    font-size: 130%;
+	margin-top:70px;
+	margin-left:-205px;
+	float:left;
+}
+
+.pab
+{
+    color: #616161;
+    font-family: Lucida;
+    font-size: 115%;
+	text-align: justify;
+	
+}
+
+
+div.polaroid_4 {
+  width: 40%;
+  height:280px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
+  margin-top: 25px;
+  margin-left:50px;
+  
+}
+
+div.container {
+  padding: 10px 20px;
+  margin-left:-50;
+}
+
+.fav4{
+	height:220px;
+	width:240px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.pab4
+{
+    color: #E65100;
+    font-family: Lucida;
+    font-size: 130%;
+	margin-top:30px;
+	margin-left:-213px;
+	float:left;
+}
+
+.pab
+{
+    color: #616161;
+    font-family: Lucida;
+    font-size: 115%;
+	text-align: justify;
+	
+}
+
+
+

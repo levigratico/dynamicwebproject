@@ -1,0 +1,91 @@
+/*****************CON1************/
+.container{
+height: 30%;
+width: 50%;
+background-color:#0b0b0d;
+margin-left:0px;
+margin-top:-72px;
+}
+/*****************PIC1************/
+.container1{
+background-color:#fff;
+padding:115px;
+margin-left:637px;
+margin-top:-549px;
+}
+/*****************PIC2************/
+.container2{
+height:510px;
+width: 51%;
+background-color:#fff;
+margin-left:0px;
+margin-top:0px;
+}
+/*****************CON2************/
+.container3{
+height: 39%;
+width: 50%;
+background-color:#0b0b0d;
+margin-left:672px;
+margin-top:-511px;
+}
+/*****************CON3************/
+.container4{
+height: 30%;
+width: 50%;
+background-color:#0b0b0d;
+margin-left:0px;
+margin-top:-37px;
+}
+/*****************PIC3************/
+.container5{
+height:478px;
+width: 50%;
+background-color:#fff;
+margin-left:673px;
+margin-top:-476px;
+}
+/*****************PIC4************/
+.container6{
+height:478px;
+width: 50%;
+background-color:#fff;
+margin-left:0px;
+margin-top:-1px;
+}
+/*****************CON4************/
+.container7{
+height: 30%;
+width: 50%;
+background-color:#0b0b0d;
+margin-left:673px;
+margin-top:-478px;
+}
+/*****************CON5************/
+.container8{
+height: 20%;
+width: 50%;
+background-color:#0b0b0d;
+margin-left:0px;
+margin-top:0px;
+}
+/*****************PIC5************/
+.container9{
+height:496px;
+width: 50%;
+background-color:#fff;
+margin-left:673px;
+margin-top:-604px;
+}
+
+/********************************************FOR REGISTRATION ************************/
+body {
+	background: url("../img/bg2.jpg") no-repeat fixed center center / 100% auto rgba(0, 0, 0, 0);
+}
+.containerA{
+	height:496px;
+	width: 50%;
+	background-color:#fff;
+	margin-left:673px;
+	margin-top:-604px;
+}
